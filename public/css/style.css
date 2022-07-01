@@ -1,0 +1,316 @@
+body {
+    background-color: #e8e8e8;
+}
+.no-width {
+    width: inherit;
+}
+#main-content {
+    margin: 0 auto 100px;
+    max-width: 800px;
+}
+.pd-x-0 {
+    padding: 0;
+}
+.body {
+    padding: 0 20px;
+}
+.vcard-header {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: right;
+}
+.vcard-header h1 {
+    margin-bottom: 0;
+}
+.vcard-header h2 {
+    font-size: 1em;
+    margin-top: 0;
+}
+.vcard-footer {
+    background-color: #666;
+}
+.vcard-footer a.white {
+    color: #fff;
+}
+.col-form-label {
+    font-weight: 600;
+    text-align: right;
+}
+.col-form-label.thin-label {
+    padding: 0 8px;
+}
+.message-block.has-error {
+    margin-top: 5px;
+}
+.message-block.has-error span.help-block {
+    display: block;
+    margin: 0;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+@media (max-width: 576px) {
+    .col-form-label {
+        text-align: left;
+    }
+}
+.modal-howto h1 {
+    font-size: 16pt;
+}
+.modal-howto h3 {
+    font-size: 13pt;
+}
+.modal-howto img {
+    box-shadow: 4px 4px 5px #ababab;
+    -moz-box-shadow: 4px 4px 5px #ababab;
+    -webkit-box-shadow: 4px 4px 5px #ababab;
+    -khtml-box-shadow: 4px 4px 5px #ababab;
+    border-radius: 6px;
+}
+.card-create-process-container {
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: #fff;
+    padding: 30px;
+}
+.card-create-process-container p {
+    margin: 0;
+    padding: 10px 0 0;
+}
+.card-create-process-container ol {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.card-create-process {
+    display: inline-block;
+    text-align: left;
+}
+.card-form-container a {
+    color: inherit;
+}
+.card-form-container {
+    margin-bottom: 2.5rem;
+}
+.card-form-container .col-form-wrapper {
+    text-align: right;
+}
+.card-form-container .drag-target {
+    padding: 20px;
+    background: #aaa;
+}
+.card-form-container .form-group.add-link,
+.card-form-container .form-group.thin {
+    margin-bottom: 0;
+}
+.card-form-container .form-group.add-link + .form-group:not(.add-link) {
+    margin-top: 1rem;
+}
+.card-form-container .form-group.add-link .col-form-label {
+    text-align: left;
+}
+.card-form-container textarea {
+    resize: none;
+}
+.card-email-address-container {
+    border: 1px dashed #333;
+    padding: 20px;
+}
+.view-card-container {
+    text-align: center;
+    margin: 40px auto;
+}
+.valign-middle {
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+}
+.no-outline:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.form-control.is-invalid {
+    background-image: none;
+}
+.trailing-input-icon {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+.has-trailing-input-icon {
+    padding-right: 2.5rem;
+}
+.view-card-footer {
+    display: block;
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 40px 0;
+    padding: 20px;
+    text-align: center;
+}
+.view-card-footer a {
+    font-style: normal;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 576px) {
+    .card-create-process-container {
+        margin-bottom: 30px;
+    }
+    .card-form-container .col-form-wrapper,
+    .card-form-container .form-group.add-link .col-form-label {
+        text-align: left;
+    }
+}
+
+.pd-x-0 {
+	padding: 0
+}
+
+.body {
+	padding: 0 20px
+}
+
+.vcard-header {
+	margin-bottom: 20px;
+	margin-top: 40px;
+	text-align: right
+}
+
+.vcard-header h1 {
+	margin-bottom: 0
+}
+
+.vcard-header h2 {
+	font-size: 1em;
+	margin-top: 0
+}
+
+.vcard-footer {
+	background-color: #666
+}
+
+.vcard-footer a.white {
+	color: #fff
+}
+
+.col-form-label {
+	font-weight: 600;
+	text-align: right
+}
+
+.col-form-label.thin-label {
+	padding: 0 8px
+}
+
+.message-block.has-error {
+	margin-top: 5px
+}
+
+.message-block.has-error span.help-block {
+	display: block;
+	margin: 0
+}
+
+.form-control:focus {
+	box-shadow: none
+}
+
+@media (max-width:576px) {
+	.col-form-label {
+		text-align: left
+	}
+}
+
+.view-profile-container {
+	margin-bottom: 1rem
+}
+
+.view-profile-container .view-profile-main {
+	margin-bottom: 10px
+}
+
+.view-profile-container .brand .brand-icon {
+	padding: .25rem .5rem;
+	min-width: 40px
+}
+
+.view-profile-container .brand .brand-icon+.brand-icon {
+	margin-left: .5rem
+}
+
+.view-profile-container .share-button {
+	text-align: center
+}
+
+.view-profile-container .share-button:not(:first-child) {
+	margin-left: .5rem
+}
+
+.card-section {
+	margin-bottom: 1rem;
+	flex-flow: row wrap
+}
+
+.card-section a:link,
+.card-section a:visited {
+	text-decoration: none;
+	color: inherit
+}
+
+.card-section a:active,
+.card-section a:hover {
+	text-decoration: underline
+}
+
+.card-section .section-label-col {
+	flex-basis: 150px
+}
+
+.card-section .section-icon {
+	margin-right: 1rem
+}
+
+.card-section .section-value-col {
+	flex-grow: 1;
+	margin-left: calc(40px + 1rem)
+}
+
+.card-section .section-value-col.truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.card-section .section-value-col.wrap {
+	word-break: break-word
+}
+
+.card-section .section-value {
+	vertical-align: text-top
+}
+
+.card-section .section-value>div {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.view-card-footer {
+	display: block;
+	font-size: .9em;
+	font-style: italic;
+	margin: 2rem 0 0;
+	padding: 20px;
+	text-align: center;
+	border-top: 1px solid #676767
+}
+
+.view-card-footer a {
+	font-style: normal
+}
+
+.address .address-entry:not(:last-child) {
+	margin-bottom: 15px
+}
